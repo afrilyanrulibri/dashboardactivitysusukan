@@ -1,4 +1,4 @@
-const endpoint = 'https://script.google.com/macros/s/AKfycbxyz123abc456/exec'; // Ganti dengan URL web app kamu
+const endpoint = 'https://script.google.com/macros/s/YOUR_DEPLOYED_WEBAPP_URL/exec'; // Ganti dengan URL kamu
 
 async function loadFeed() {
   try {
