@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #0060AE;
+  margin-bottom: 30px;
+}
+
+.feed-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.feed-card {
+  width: 300px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+.feed-card:hover {
+  transform: scale(1.02);
+}
+
+.feed-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.feed-card .info {
+  padding: 15px;
+}
+
+.feed-card .info p {
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.feed-card a {
+  color: #007bff;
+  text-decoration: none;
+}
